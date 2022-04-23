@@ -14,4 +14,5 @@ open class Human : Animal ,Thinkable{
     override fun think() {
         Log.d("kotlintest","私は"+hobby+"について考える")
     }
+
 }
