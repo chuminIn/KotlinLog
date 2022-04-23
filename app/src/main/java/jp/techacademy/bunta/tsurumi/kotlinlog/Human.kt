@@ -4,6 +4,9 @@ import android.util.Log
 
 open class Human : Animal ,Thinkable{
     constructor(name: String, age: Int,hobby:String): super(name, age,hobby) {
+        this.name=name
+        this.age=age
+        this.hobby=hobby
     }
 
     override fun say() {
